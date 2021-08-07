@@ -1,4 +1,53 @@
 *{
     box-sizing: border-box;
     margin: 0;padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* 400-500 medium */
+
+.navbar{
+    background-color: black;
+}
+
+.navbar-brand{
+    font-family: 'Bebas Neue', cursive;
+    color: #26FFDF;font-size: 1.7rem;
+}
+
+.mainbtn{
+    color: black;background-color: #26FFDF;
+    border-radius: 0;padding: 9px;font-weight: 500;
+}
+
+.navbar-toggler-icon{
+    color: #26FFDF;font-size: 2.2rem;
+    padding: 0;
+}
+
+header{
+    display: flex;height: 90vh;
+    background-image: url('./assets/bg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.headerContent{
+    width: 50%;margin: auto;text-align: center;
+    justify-content: center;align-items: flex-end;
+}
+
+.title{
+    color: white;font-size: 2.6rem;
+    background-color: black;padding: 4px;
+}
+
+@media only screen and (max-width: 425px){
+    .headerContent{width: 100%;}
+
+    .title{font-size: 2.3rem;}
+}
+
+article{
+    background-color: #FF2646;height: 100vh;
 }
