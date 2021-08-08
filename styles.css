@@ -4,8 +4,6 @@
     font-family: 'Roboto', sans-serif;
 }
 
-/* 400-500 medium */
-
 .navbar{
     background-color: black;
 }
@@ -49,5 +47,38 @@ header{
 }
 
 article{
-    background-color: #FF2646;height: 100vh;
+    height: 100vh;color: white;
+    background-color: #FF2646;
+}
+
+article > .about{
+    background-color: black;
+    height: 60vh;display: flex;
+}
+
+.about > .text{
+    text-align: center;width: 75%;
+    font-size: 2.5rem;margin: auto;
+    align-items: center;
+}
+
+@media only screen and (max-width: 519px){
+    .about > .text{font-size: 2rem;width: 95%;}
+}
+
+@media only screen and (max-width: 330px){
+    .about > .text{font-size: 1.5rem;}
+}
+
+article > .platforms{
+    background-color: #FF2646;
+    height: 40vh;text-align: center;
+}
+
+.platforms > .imgs > img{
+    width: 220px;padding: 6px;
+}
+
+@media only screen and (max-width: 440px){
+    .platforms > .imgs > img{width: 150px;}
 }
