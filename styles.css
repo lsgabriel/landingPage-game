@@ -82,3 +82,29 @@ article > .platforms{
 @media only screen and (max-width: 440px){
     .platforms > .imgs > img{width: 150px;}
 }
+
+section{background-color: black;}
+
+.mode1{
+    background-image: url('./assets/img1.jpg');
+    background-size: cover;
+}
+
+.mode2{
+    background-image: url('./assets/img2.jpg');
+    background-size: cover;
+}
+
+.mode1, .mode2{
+    height: 90vh;
+    align-items: center;
+}
+
+.mode1 > h1, .mode2 > h1{
+    align-items: center;text-align: center; 
+    background-color: black;
+}
+
+footer{
+    background-color: black;
+}
