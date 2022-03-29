@@ -1,5 +1,4 @@
-# Landing Page
-Landing page feita em HTML e CSS com Bootstrap
+# Landing Page Game 🎮
 
-
-![capa](/assets/cover.png)
+![capa](/assets/screen.png)
+## Landing page feita em HTML e CSS com Bootstrap
